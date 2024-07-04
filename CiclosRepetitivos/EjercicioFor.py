@@ -6,4 +6,5 @@ for i in range(cantidad):
     acumuladorNotas = acumuladorNotas + nota
 
 promedio = acumuladorNotas / cantidad
+print(promedio)
 print('La nota final es: ', round(promedio,2))
